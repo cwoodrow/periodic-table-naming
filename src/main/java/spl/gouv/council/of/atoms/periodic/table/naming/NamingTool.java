@@ -1,5 +1,7 @@
 package spl.gouv.council.of.atoms.periodic.table.naming;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -100,7 +102,7 @@ public class NamingTool {
                 allSymbols.add(createSymbolsName(elementName, firstLetterIndex, secondLetterIndex));
             }
         }
-        return allSymbols;
+        return Collections.unmodifiableSortedSet(allSymbols);
     }
 
 
