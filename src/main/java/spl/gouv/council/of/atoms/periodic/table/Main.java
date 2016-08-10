@@ -11,9 +11,9 @@ import static spl.gouv.council.of.atoms.periodic.table.naming.NamingTool.*;
  * --number-possibilities &lt;ELEMENT_NAME&gt; <br>
  */
 public class Main {
-    public static final String CHECK_RULE = "--check-rule";
-    public static final String NUMBER_POSSIBILITIES = "--number-possibilities";
-    public static final String FIRST_ELEMENT = "--first-element";
+    private static final String CHECK_RULE = "--check-rule";
+    private static final String NUMBER_POSSIBILITIES = "--number-possibilities";
+    private static final String FIRST_ELEMENT = "--first-element";
 
     public static void main(String[] args) {
         if(args.length < 2 || args.length > 3){
