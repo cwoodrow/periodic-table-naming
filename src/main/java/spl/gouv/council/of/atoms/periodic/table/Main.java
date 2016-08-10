@@ -1,10 +1,15 @@
 package spl.gouv.council.of.atoms.periodic.table;
 
 
-import spl.gouv.council.of.atoms.periodic.table.naming.NamingTool;
-
 import static spl.gouv.council.of.atoms.periodic.table.naming.NamingTool.*;
 
+/**
+ * This is a main class for tests, usage : <br>
+ *
+ * --check-rule &lt;ELEMENT_NAME&gt; &lt;SYMBOL_NAME&gt; <br>
+ * --first-element &lt;ELEMENT_NAME&gt; <br>
+ * --number-possibilities &lt;ELEMENT_NAME&gt; <br>
+ */
 public class Main {
     public static final String CHECK_RULE = "--check-rule";
     public static final String NUMBER_POSSIBILITIES = "--number-possibilities";

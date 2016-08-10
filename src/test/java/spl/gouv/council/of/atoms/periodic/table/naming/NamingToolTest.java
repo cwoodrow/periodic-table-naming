@@ -105,7 +105,7 @@ public class NamingToolTest {
 
     @Test
     public void threeDifferentLettersElementShouldGive3PossibleSymbolsOrderedAlphabetically() {
-        SortedSet<String> allElementsSymbols = NamingTool.buildAllElementsSymbols("Abc");
+        SortedSet<String> allElementsSymbols = NamingTool.buildAllSymbols("Abc");
         assertEquals(3, allElementsSymbols.size());
         Iterator<String> iterator = allElementsSymbols.iterator();
         assertEquals(iterator.next(), "Ab");
@@ -115,19 +115,19 @@ public class NamingToolTest {
 
     @Test
     public void emptyELementNameShouldReturnEmptySet() {
-        assertTrue(NamingTool.buildAllElementsSymbols("").isEmpty());
+        assertTrue(NamingTool.buildAllSymbols("").isEmpty());
     }
 
 
     @Test
     public void oneCharacterELementNameShouldReturnEmptySet() {
-        assertTrue(NamingTool.buildAllElementsSymbols("a").isEmpty());
+        assertTrue(NamingTool.buildAllSymbols("a").isEmpty());
     }
 
 
     @Test
     public void twoCharactersELementsNamesShouldReturnThemselves() {
-        SortedSet<String> allElementsSymbols = NamingTool.buildAllElementsSymbols("Ab");
+        SortedSet<String> allElementsSymbols = NamingTool.buildAllSymbols("Ab");
         assertEquals(1, allElementsSymbols.size());
         assertEquals("Ab", allElementsSymbols.first());
     }
