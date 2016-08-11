@@ -13,10 +13,10 @@ import static java.lang.String.valueOf;
  * The three methods are :
  * <ul>
  *     <li>{@link NamingTool#checkRule(String, String)} for symbol validation</li>
- *     <li>{@link NamingTool#findFirstValidSymbolInAlphabeticalOrder(String) to find the first valid symbol for
- *         given element (bonus challenge #2)}</li>
- *     <li>{@link NamingTool#howManyPossibleSymbolsForAGivenElementName(String) to get the number of distinct
- *         valid symbols (bonus challenge #2)}</li>
+ *     <li>{@link NamingTool#findFirstValidSymbolInAlphabeticalOrder(String)} to find the first valid symbol for
+ *         given element (bonus challenge #1)</li>
+ *     <li>{@link NamingTool#howManyPossibleSymbolsForAGivenElementName(String)} to get the number of distinct
+ *         valid symbols (bonus challenge #2)</li>
  * </ul>
  * <br>
  * See : <a href="https://dzone.com/articles/java-code-challenge-chemical-symbol-naming-part-on">
